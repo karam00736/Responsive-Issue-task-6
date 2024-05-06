@@ -1,0 +1,189 @@
+/* set nav container style */
+@media(max-width:768px) {
+  .nav-container {
+    padding: 0 5vw 0 5vw;
+    margin: 0vw 0 2vw 0;
+  }
+
+  /* style logo */
+  .logo-container h2 {
+    font-size: 3.4vw;
+  }
+
+
+  /* style nav link */
+  .link-container a {
+    font-size: 1.8vw;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgba(62, 63, 65, 0.46);
+    padding: .1vw 1vh;
+    /* background-color: beige; */
+  }
+
+  /* style button inside user button-container */
+  .user-button-container button {
+    border: none;
+    padding: 1.8vw 1.2vw;
+    border-radius: 1vw;
+    font-size: 1.5vw;
+  }
+
+  /* style heading container inside left container */
+  .left-container .heading-container h2 {
+    font-size: 4.2vw;
+    line-height: 5.6vw;
+    font-weight: 700;
+  }
+
+  /* style para */
+  .left-container .para-container p {
+    width: 40vw;
+    font-size: 2vw;
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.343);
+    line-height: 3vw;
+  }
+
+  /* style button container and button inside left container of hero section  */
+  .left-container .button-container {
+    flex: 45vw;
+    align-self: right;
+    margin-top: 2vh;
+  }
+
+  .hero-container .button-container button {
+    border: none;
+    padding: 3.2vw;
+    width: 30vw;
+    border-radius: 3vw;
+    font-size: 1.7vw;
+  }
+
+  /* right container inside hero section end */
+  /* Hero section left container style */
+  .hero-container .right-container {
+    flex: 45vw;
+    align-content: flex-start;
+    /* background-color: aqua; */
+  }
+
+  /* style img inside right container */
+  .right-container img {
+    width: 45vw;
+    height: 65vh;
+
+  }
+}
+
+/* set nav container style */
+@media(max-width:550px) {
+  .nav-container {
+    padding: 0 5vw 0 5vw;
+    margin: 0vw 0 2vw 0;
+  }
+
+  /* style logo */
+  .logo-container {
+    width: 45vw;
+  }
+
+  .logo-container h2 {
+    font-size: 6vw;
+  }
+
+  label {
+    z-index: 1;
+    font-size: 5rem;
+  }
+
+  .link-container,
+  a {
+    display: none;
+  }
+
+  /* style nav link */
+  .link-container a {
+    font-size: 3vw;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    padding: 2rem 0rem;
+    border-bottom: .2px white solid;
+    /* margin-top: 1rem; */
+  }
+
+  .link-container {
+    background-color: black;
+    color: white;
+    margin-top: 4rem;
+    width: 50vw;
+    height: 200vh;
+    position: absolute;
+    left: 50vw;
+  }
+
+  .user-button-container {
+    width: 45vw;
+  }
+
+  .user-button-container button {
+    border: none;
+    padding: 3vw 2vw;
+    border-radius: 1vw;
+    font-size: 3vw;
+  }
+
+  /* style heading container inside left container */
+  .hero-container {
+    flex-direction: column;
+  }
+
+  .left-container {
+    flex: 100vw;
+    padding-left: 0vw;
+  }
+
+  .left-container .heading-container h2 {
+    font-size: 8vw;
+    line-height: 10vw;
+  }
+
+  /* style para */
+  .left-container .para-container p {
+    width: 70vw;
+    font-size: 3vw;
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.343);
+    line-height: 5vw;
+  }
+
+  /* style button container and button inside left container of hero section  */
+  .left-container .button-container {
+    flex: 90vw;
+    align-self: right;
+    margin-top: 3vh;
+  }
+
+  .hero-container .button-container button {
+    border: none;
+    padding: 4vw;
+    width: 40vw;
+    border-radius: 3vw;
+    font-size: 3vw;
+  }
+
+  /* right container inside hero section end */
+  /* Hero section left container style */
+  .hero-container .right-container {
+    flex: 100vw;
+    align-self: center;
+  }
+
+  /* style img inside right container */
+  .right-container img {
+    width: 90vw;
+    height: 70vh;
+    padding-top: 8vw;
+  }
+}

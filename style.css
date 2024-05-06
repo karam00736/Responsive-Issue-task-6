@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* set body style */
+body {
+  font-family: sans-serif;
+}
+
+/* set nav container style */
+.nav-container {
+  width: 100vw;
+  height: 10vh;
+  /* background-color: orchid; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5vw 0 5vw;
+  margin: 1vh 0 10vh 0;
+}
+
+/* style logo container */
+.logo-container {
+  /* background-color: beige; */
+  flex: 10vw;
+}
+
+/* style logo */
+.logo-container h2 {
+  font-size: 2.5vw;
+  font: weight 500;
+  color: #1a1918;
+}
+
+/* link container style */
+.link-container {
+  /* background-color: blueviolet; */
+  flex: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.3vw;
+
+}
+
+/* style nav link */
+.link-container a {
+  font-size: 1.3vw;
+  text-decoration: none;
+  color: rgba(62, 63, 65, 0.653);
+  padding: .5vw 1vh;
+  /* background-color: beige; */
+}
+
+
+/* style button container */
+.user-button-container {
+  /* background-color: wheat; */
+  flex: 10vw;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+/* style of user button in nav bar */
+.user-button-container button {
+  border: none;
+  padding: 1.3vw 1vw;
+  border-radius: 1vw;
+  font-size: 1.1vw;
+  background-color: #2195f332;
+  color: #2196f3;
+  cursor: pointer;
+}
+
+/* Hero section style start */
+.hero-container {
+  width: 90vw;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+/* Hero section left container style */
+.hero-container .left-container {
+  flex: 45vw;
+  align-self: flex-start;
+  padding-top: 4vw;
+  padding-left: 4vw;
+  margin-bottom: 2vw;
+  /* background-color: aqua; */
+}
+
+/* style heading container inside left container */
+.left-container .heading-container h2 {
+  font-size: 3.4vw;
+  font-weight: 700;
+  line-height: 4.4vw;
+  /* letter-spacing: 2px; */
+}
+
+.heading-container .heading-1,
+.heading-2 {
+  color: rgba(24, 23, 23, 0.685);
+}
+
+.heading-container .heading-3 {
+  color: #2196f3;
+}
+
+/* style para inside of left container */
+.left-container .para-container {
+  margin-top: 1vh;
+}
+
+.left-container .para-container p {
+  width: 35vw;
+  font-size: 1.4vw;
+  text-align: justify;
+  color: rgba(0, 0, 0, 0.343);
+  line-height: 1.8vw;
+}
+
+/* style button container and button inside left container of hero section  */
+.left-container .button-container {
+  flex: 45vw;
+  align-self: right;
+  margin-top: 3vh;
+}
+
+.hero-container .button-container button {
+  border: none;
+  padding:1.7vw;
+  width: 20vw;
+  border-radius: 1vw;
+  background-color: #2196f3;
+  color: white;
+  font-size: 1.5vw;
+  cursor: pointer;
+}
+
+/* right container inside hero section end */
+/* Hero section left container style */
+.hero-container .right-container {
+  flex: 45vw;
+  /* align-self: flex-start; */
+ align-self: flex-start;
+
+}
+
+/* style img inside right container */
+.right-container img {
+  width: 40vw;
+  height:70vh;
+  padding-left: 1vw;
+  margin-top: 3vw;
+}
+
